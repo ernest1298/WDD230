@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Playfair+Display:ital@1&display=swap');
+
 /* small screen */
 /* .header {
     background-color: #4682b4;
@@ -50,21 +52,22 @@ span {
 
 .mainContainer {
     width: 80%;
-    height: auto;
+    height: 50%;
     display: grid;
-    grid-template-rows: 40% 20% 1fr;
+    grid-template-rows: 10% 5% 1fr;
     grid-row-gap: 10px;
     align-content: center;
     text-align: center;
     justify-content: space-around;
     margin: auto auto;
     margin-top: 100px;
+    font-family: Oswald;
 }
 h1 {
     grid-row: 1/2;
 }
 .desgnlink {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .boxContainer {
     grid-row: 3/4;
@@ -77,7 +80,7 @@ h1 {
     grid-gap: 30px;
     /* margin: 50px; */
 }
-.box{
+/*.box{
     height: autopx;
     width: 280px;
     background-color: lightblue;
@@ -88,6 +91,45 @@ h1 {
 @media only screen and (max-width: 1000px){
 
 
+
+
+
+}
+/*gggggg*/
+
+body {
+    margin-bottom: 100px;
+}
+
+.box{
+    height: auto;
+    width: 280px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto ;
+}
+.repImg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.heading {
+    background-color: dimgrey;
+    padding: 5px;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mainContainer {
+    /* margin-bottom: 100px; */
+}
+footer {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 1000px){
 
 
 }
