@@ -1,5 +1,5 @@
 /* small screen */
-.header {
+/* .header {
     background-color: #4682b4;
     box-shadow: #000 2px 2px 20px;
     padding: 20px;
@@ -44,6 +44,51 @@ footer {
 }
 span {
     color: greenyellow;
-}
+} */
 
 /* large screen */
+
+.mainContainer {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 40% 20% 1fr;
+    grid-row-gap: 10px;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto auto;
+    margin-top: 100px;
+}
+h1 {
+    grid-row: 1/2;
+}
+.desgnlink {
+    margin-bottom: 50px;
+}
+.boxContainer {
+    grid-row: 3/4;
+    /* width: 60%; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-betweeen; */
+    margin: auto auto;
+    grid-gap: 30px;
+    /* margin: 50px; */
+}
+.box{
+    height: autopx;
+    width: 280px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+
+
+
+
+}
+
