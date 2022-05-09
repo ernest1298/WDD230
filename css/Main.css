@@ -99,6 +99,22 @@ span {
 } */
 
 /* large screen */
+.main h1 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.main {
+    display: block;
+}
+.main p {
+    font-size: 16px;
+}
+.typog {
+    width: 500px;
+}
+.logo {
+    width: 200px;
+}
 
 .mainContainer {
     width: 80%;
